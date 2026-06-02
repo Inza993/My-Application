@@ -18,6 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="User Login"
+            android:id="@+id/titleText"
             android:textSize="50sp"
             tools:visibility="visible"
             android:textAlignment="center"
@@ -28,8 +29,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            android:layout_marginTop="16dp"
-            android:background="#CBCBCB"/>
+            android:hint="Enter your mail"
+            android:layout_marginTop="16dp" />
 
         <EditText
             android:id="@+id/editTextNumberPassword"
@@ -37,9 +38,8 @@
             android:layout_height="wrap_content"
             android:inputType="numberPassword"
             android:visibility="visible"
-            android:layout_marginTop="8dp"
-            android:backgroundTint="#CBCBCB"
-            android:backgroundTintMode="add"/>
+            android:hint="Enter your password"
+            android:layout_marginTop="8dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -58,6 +58,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.50"
+                android:id="@+id/forgetPasswordTxtView"
                 android:text="Forgot Password"
                 android:textSize="18sp" />
         </LinearLayout>
