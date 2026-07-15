@@ -35,5 +35,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/times"
         android:layout_alignStart="@id/name"
-        android:text="cancle" />
+        android:text="cancel" />
 </RelativeLayout>
