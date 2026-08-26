@@ -5,7 +5,23 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="cost_of_service">Cost of Service</string>
+    <string name="how_was_the_service">How was the service?</string>
+    <string name="tip_amount">Tip Amount: %s</string>
+    <!-- Tip option for amazing service which uses 20% to calculate the tip  -->
+    <string name="amazing_service">Amazing (20%)</string>
 
+    <!-- Tip option for good service which uses 18% to calculate the tip  -->
+    <string name="good_service">Good (18%)</string>
+
+    <!-- Tip option for okay service which uses 16% to calculate the tip  -->
+    <string name="ok_service">Okay (15%)</string>
+
+    <!-- Text label for toggle switch that asks the user if they want to round up the tip  -->
+    <string name="round_up_tip">Round up tip?</string>
+
+    <!-- Label for button that calculates the tip  -->
+    <string name="calculate">Calculate</string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
